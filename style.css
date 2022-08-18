@@ -1,0 +1,389 @@
+body{
+    font-family: sans-serif;
+    color: rgb(3, 3, 3);
+ }
+
+a{
+    color: gray;
+    text-decoration: none;
+}
+
+.active{
+    color:#00ccb1;
+}
+
+.logo-docplanner {
+    width: 268px;
+    height: 33px;
+}
+
+header{ 
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 14% 50px; 
+    width: 72%;
+    padding-top: 10px;
+}
+
+
+.menu {
+    list-style: none;
+    font-size: .9375rem;
+    font-weight: 400;
+}
+
+
+.navbar .menu li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 15px;
+}
+
+.navbar a:hover {
+ color: #00b39b;
+}
+.header> ul{
+    width:250px ;
+    display: flex;
+    justify-content: space-between;  
+    list-style-type: none;
+    font-style: 20px;
+    color: grey; 
+}
+
+/*dropdown*/
+
+.dropdown-content ul{
+    list-style-type: none;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(253, 252, 252);
+    width:300px;
+    color:   #00b39b;
+    line-height: 30px;
+    font-size: 17px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 3px;
+    cursor: pointer
+
+}
+
+.menu:hover .dropdown-content{
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    cursor: pointer
+}
+
+
+
+
+/*Introd styling*/
+
+
+.introduction {
+    margin: auto;
+    width: 72.5%;
+    text-align: center;
+}
+
+
+.introduction-paragraph{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.introduction-paragraph p{
+    width: 49%;
+    font-size: 16px;
+    line-height: 1.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: grey;
+}
+.introduction h1{
+    color: #00b39b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+    margin:50px auto;
+}
+
+.introduction-title {
+    color: #00ccb1;
+}
+
+.introduction-text {
+    display: flex; 
+}
+
+.introduction-paragraph {
+    margin: 50 px;
+    padding: 10px;
+}
+
+
+
+
+.services {
+    display: flex;
+    padding: 0px;
+    margin: 32px;
+}
+
+
+.service-card{
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    margin: 50px;
+}
+
+h1 {
+    font-size: 2.125rem;
+    font-family: Work Sans,Arial,sans-serif;
+    margin: 0.67cm 0;
+    font-weight: 300 bold;
+}
+
+h2 {
+    margin: 1em 0;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+
+.serv-card-for {
+    
+}
+.service-card-select {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.service-card-patient {
+    width: 33%;
+    background-color: #00ccb1;
+}
+
+.service-card-doctor {
+    height: 345px;
+    width: 33%;
+    background-color: #3d83df;
+}
+
+.service-card-clinics {
+    width: 33%;
+    background-color:#1b2734;
+}
+
+
+/*Brands styling*/
+.brands_section{
+    margin: 0 auto;
+    width: 72.5%;
+    display: flex;  
+}
+
+.parag{
+    flex:1;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgb(33, 203, 206);
+}
+.brands_logos a{
+    color: rgb(209, 202, 202);
+}
+.brands_logos a:hover{
+    color: rgb(7, 179, 141);
+}
+.brands_logos{
+    flex:3;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    flex-wrap: wrap;
+    font-weight: 600;
+    list-style: none; 
+}
+
+/*Blue */
+.id {
+    max-height:400px;
+    overflow:hidden;
+}
+
+.txt-blue1 {
+    color: #00b39b;
+}
+
+.blue-section{
+    background-color: #e5faf8;
+    display: flex;
+
+}
+
+.blue-1{
+    padding: 60px 80px 50px 180px;
+}
+
+.blue-1 h2{
+    color:#00b39b;
+    font-size: 35px;
+    font-weight: 500;
+}
+.blue-1{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.blue-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding:20px 0px auto auto;
+    margin:30px 0 auto auto;
+    
+}
+.blue-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding: 5px auto auto 0px;
+    height: 520px;
+
+}
+
+.blu{ 
+    background-color: white;
+    padding: 20px 5px ;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+    height: 200px;
+    width: 210px;
+}
+.blu h4{
+    color: rgb(97, 238, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    
+    margin:14px 0 0 0 ;
+}
+.blu p{
+    color:grey;
+    font-size:15px;
+}
+
+/*million se*/
+
+.million-section{
+    margin:auto;
+    width: 72.5%;
+    text-align: center;
+    margin:40px 32.5%;
+    width:35%;
+    padding-top: 20px;
+}
+.million-section h3{
+    color:#00ccb1;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.million-section p{
+    color: grey;
+    line-height: 1.7em;
+}
+
+.cards-section{
+    margin: auto;
+    width: 72.5%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    border-radius: 12px;
+    margin-top: 50px;
+   
+   
+}
+.card img {
+    padding-top: 0;
+    margin-top: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px ;
+}
+.card p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color:grey;
+   
+    
+}
+.card{
+   display: flex;
+   flex-wrap: wrap; 
+   border-color: grey;
+ 
+   border-top-left-radius: 10px;
+   border-top-right-radius:10px ;
+   margin-top: 20px;
+   
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    
+}
+ 
+.button-1 {
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    background-color: #3d83df;
+    height:30px;
+    width:118px;
+    padding: 10px 20px 15px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 1.8em 17px;
+    cursor: pointer;   
+}
+
+/*Footer*/
+footer{
+    text-align: center;
+   padding-top: 60px;
+   margin-top: 40px;
+   color: rgb(162, 167, 162);
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 12px; 
+}
+
+footer a {
+    color: #3d83df;
+}
